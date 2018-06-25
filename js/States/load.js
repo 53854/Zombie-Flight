@@ -20,9 +20,9 @@ var loadState = {
             font: "30px Agency FB",
             fill: "#ffffff"
         });
-        var loadingBar = game.add.sprite(game.world.centerX, game.world.centerY, "zombieload");
+        var loadingBar = game.add.sprite(game.world.centerX + 200, game.world.centerY , "zombieload");
         loadingBar.anchor.setTo(0.5);
-        loadingBar.scale.setTo(0.25, 0.25);
+        loadingBar.scale.setTo(0.2, 0.2);
         this.load.setPreloadSprite(loadingBar, 1);
 
         /* enableing input keys*/
